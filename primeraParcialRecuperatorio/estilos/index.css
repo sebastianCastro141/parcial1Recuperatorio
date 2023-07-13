@@ -1,0 +1,218 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.noche{
+    color: aliceblue;
+}
+a h3{
+    color:black;
+}
+
+main {
+  background-color: #f2f2f2;
+}
+.main-noche{
+    background-color:#7F7F7F;
+}
+/***************Header************/
+
+.redesBotonDeModo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.redes {
+  display: flex;
+}
+.redes li {
+  list-style: none;
+  margin: 6px;
+}
+
+.register {
+  display: flex;
+  justify-content: end;
+}
+.register button {
+  margin-left: 5px;
+}
+
+header {
+  background-color: #cccccc;
+  padding: 1vw;
+}
+.header-noche{
+  background-color: #595959;
+  padding: 1vw;
+}
+/***************Main***********/
+/***************tituloBreve***********/
+.tituloBreve {
+  background-color: #f2f2f2;
+}
+/**************eventDetailBreve*********/
+.eventDetailBreve {
+  /*border: solid 1px black;*/
+  background-color: #f2f2f2;
+}
+.eventDetailBreve h3 {
+  background-color: #cccccc;
+}
+
+.diaLocationPrice {
+  padding: 5vw;
+  border: solid black 1px;
+}
+/**************theTopic*********/
+.theTopic {
+  background-color: #f2f2f2;
+}
+.theTopic h3 {
+  background-color: #cccccc;
+}
+/**************gridImagenesDeEvento*********/
+
+.gridImagenesDeEvento {
+  background-color: #f2f2f2;
+}
+.gridImagenesDeEvento div {
+  margin: 10vw;
+  height: 300px;
+  max-width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.img1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbwve5Rd3bHhjvx0FK32G4TzZ00k2lgLar2eASNkWJLV_Yohr4xm45IzLil2H63oH4Y6Y&usqp=CAU");
+}
+.img2 {
+  background-image: url("https://www.ceupe.com/images/easyblog_articles/776/b2ap3_large_1534410956-1.png");
+}
+.img3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7EI4dygQlbDhhzsx0KWuJfWPxzvo8zUhrjNw7Hv2f3Z5FcLH0aot6aEBYyJAiHmEymz8&usqp=CAU");
+}
+.img4 {
+  background-image: url("https://www.becas-santander.com/content/dam/becasmicrosites/blog/e-learning-1.jpg");
+}
+.img5 {
+  background-image: url("https://www.elplural.com/uploads/s1/17/50/4/e-learning-portada.jpeg");
+}
+.img6 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-nU5QN-gSnSyUnzOt_4gAFc8NHrlDV9hmZMRQfDQIxs7Fv6BLT6x16RbSmxduEb1RD8&usqp=CAU");
+}
+/**************gridPersonas*********/
+
+.gridPersonas {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.gridPersonas h3 {
+  background-color: #cccccc;
+}
+.carta{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+}
+.carta-img{
+    height: auto;
+    width: 100%;
+}
+.cuerpo{
+    height: auto;
+    width: 100%;
+}
+/************eventDetails***********/
+
+.eventDetails {
+  max-width: 100%;
+  height: auto;
+  padding: 2vw;
+  border: solid black 2px;
+}
+/************Footer***********/
+
+footer{
+  background-color: #cccccc;
+  padding-top: 5vw;
+}
+.footer-noche{
+  padding-top: 5vw;
+  background-color: #595959;
+}
+.contenedorDeFooter .redes {
+justify-content: center;
+}
+
+.datosDeContacto li {
+list-style: none;
+text-align: center;
+}
+
+.mapaAlLocal {
+padding: 1vw;
+}
+
+/******* para tablet *****/
+@media only screen and (min-width: 768px) {
+
+
+  main h2{
+      padding-top: 5vw;
+  }
+  /***header***/
+  .tituloBreve {
+    background-color: #f2f2f2;
+    margin: 0% 15%;
+    padding: 10% 10%;
+  }
+  /********event details breve*****/
+  .eventDetailBreve {
+    margin: 0% 15%;
+    padding: 10% 10%;
+  }
+  .diaLocationPrice p{
+    padding: 3vw;
+  }
+  .gridImagenesDeEvento{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .gridImagenesDeEvento div{
+    margin: 2vw;
+  }
+  /*****grid personas*¨***/
+  .gridPersona{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  /****foooter***/
+  .tituloFooter{
+      padding: 1vw;
+  }
+
+  .contenedorDeFooter{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .contenedor{
+      padding: 1vw;
+  }
+  .datosDeContacto li{
+      text-align: start;
+      padding: 1vw;
+  }
+}

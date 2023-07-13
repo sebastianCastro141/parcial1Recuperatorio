@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.noche{
+    color: aliceblue;
+}
+a h3{
+    color:black;
+}
+
+main {
+  background-color: #f2f2f2;
+}
+.main-noche{
+    background-color:#7F7F7F;
+}
+/***************Header************/
+.redesBotonDeModo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.redes {
+  display: flex;
+}
+.redes li {
+  list-style: none;
+  margin: 6px;
+}
+
+.register {
+  display: flex;
+  justify-content: end;
+}
+.register button {
+  margin-left: 5px;
+}
+
+header {
+  background-color: #cccccc;
+  padding: 1vw;
+}
+.header-noche{
+  background-color: #595959;
+  padding: 1vw;
+}
+/****** form *****/
+form{
+    padding:10vw;
+}
+/************Footer***********/
+footer{
+    background-color: #cccccc;
+    padding-top: 5vw;
+}
+.footer-noche{
+    padding-top: 5vw;
+    background-color: #595959;
+}
+.contenedorDeFooter .redes {
+  justify-content: center;
+}
+
+.datosDeContacto li {
+  list-style: none;
+  text-align: center;
+}
+
+.mapaAlLocal {
+  padding: 1vw;
+}
+
+/******* para tablet *****/
+@media only screen and (min-width: 768px) {
+
+    /*****form****/
+    main h2{
+        padding-top: 5vw;
+    }
+    form{
+        padding: 0px 5vw 5vw 5vw;
+    }
+    /****foooter***/
+    .tituloFooter{
+        padding: 1vw;
+    }
+ 
+    .contenedorDeFooter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .contenedor{
+        padding: 1vw;
+    }
+    .datosDeContacto li{
+        text-align: start;
+        padding: 1vw;
+    }
+}
